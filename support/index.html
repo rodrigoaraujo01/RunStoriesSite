@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — Run Stories</title>
+  <meta name="description" content="Get help with Run Stories. Find answers to common questions or contact support.">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg: #0A0A0C; --bg-card: #141418; --text: #F5F5F7; --text-muted: #8E8E93;
+      --accent-orange: #DC862F; --accent-pink: #FF3770;
+      --gradient: linear-gradient(135deg, var(--accent-orange), var(--accent-pink));
+      --radius: 16px;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent-orange); }
+    nav {
+      padding: 16px 24px; background: rgba(10,10,12,0.8);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      display: flex; align-items: center; gap: 16px;
+    }
+    .nav-brand {
+      font-size: 1.2rem; font-weight: 700; text-decoration: none;
+      background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .content { max-width: 720px; margin: 0 auto; padding: 64px 24px 100px; }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 32px; }
+    h2 { font-size: 1.15rem; font-weight: 600; margin-bottom: 8px; }
+    p { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 12px; }
+    .faq-item {
+      background: var(--bg-card); border-radius: var(--radius);
+      padding: 24px; margin-bottom: 16px;
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+    .contact-box {
+      margin-top: 48px; text-align: center; padding: 48px 24px;
+      background: var(--bg-card); border-radius: var(--radius);
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+    .contact-box h2 { font-size: 1.3rem; margin-bottom: 12px; }
+    .btn {
+      display: inline-block; padding: 14px 32px; border-radius: 50px;
+      font-weight: 600; font-size: 1rem; text-decoration: none;
+      background: var(--gradient); color: #fff; margin-top: 16px;
+      transition: opacity 0.2s;
+    }
+    .btn:hover { opacity: 0.85; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="/">Run Stories</a>
+</nav>
+
+<div class="content">
+  <h1>Support</h1>
+
+  <div class="faq-item">
+    <h2>How do I connect Apple Health?</h2>
+    <p>Run Stories requests HealthKit access when you first open the app. You can also enable it later in Settings > Health > Run Stories on your iPhone.</p>
+  </div>
+
+  <div class="faq-item">
+    <h2>How do I connect Strava?</h2>
+    <p>Tap the Strava option on the workout source screen and log in with your Strava credentials. Run Stories will sync your recent activities.</p>
+  </div>
+
+  <div class="faq-item">
+    <h2>Do I need an account?</h2>
+    <p>No. Run Stories works immediately with Apple Health — no sign-up required. A Strava account is only needed if you want to import Strava activities.</p>
+  </div>
+
+  <div class="faq-item">
+    <h2>How many free exports do I get?</h2>
+    <p>You get 5 free exports. After that, upgrade to Pro for unlimited exports and access to all premium templates.</p>
+  </div>
+
+  <div class="faq-item">
+    <h2>How do I manage or cancel my subscription?</h2>
+    <p>Subscriptions are managed through the Apple App Store. Go to Settings > Apple ID > Subscriptions on your iPhone to manage or cancel.</p>
+  </div>
+
+  <div class="faq-item">
+    <h2>Is my data private?</h2>
+    <p>Yes. All health, workout, and photo data stays on your device. We never collect or send your data to any server. Read our <a href="/privacy-policy">Privacy Policy</a> for full details.</p>
+  </div>
+
+  <div class="contact-box">
+    <h2>Still need help?</h2>
+    <p>We're happy to help with any questions or issues.</p>
+    <a class="btn" href="mailto:support@runstories.app">Email Support</a>
+  </div>
+</div>
+
+</body>
+</html>
